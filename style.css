@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f6fd; /* pastel lavender */
+    color: #4a4a4a; /* neutral dark gray */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #9c27b0; /* soft pastel purple */
+    margin: 0;
+}
+
+p {
+    color: #555;
+}
+
+/* Hero Section */
+.hero-section {
+    text-align: center;
+    padding: 45px 10px;
+    background-color: #ffe3f1;
+    border-bottom: 5px solid #ba68c8
+
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+} 
+
+/* Section Styles */
+section {
+    padding: 30px 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.card img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/* Image Grid */
+.image-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.image-grid img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ba68c8;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #f8bbd0; /* pastel pink */
+    color: #4a4a4a;
+    font-size: 0.9rem;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.8;       /* Makes it easy to read */
+    color: #7b6fce;         /* Soft purple text */
+    font-family: 'Cursive', sans-serif;  
+    margin: 20px auto;      /* Center alignment */
+    width: 80%;             /* Restrict width for a neat layout */
+    text-align: justify;    /* Aligns the text neatly */
+  }
+  
